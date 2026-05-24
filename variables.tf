@@ -7,11 +7,11 @@ variable "environment" {
 }
 
 variable "component" {
-  default = String
+  type = string
 }
 
 variable "app_version" {
-  type = String
+  type = string
   default = "v3"
 
 }
